@@ -1,0 +1,17 @@
+name: gh-notifier
+version: 0.1.0
+
+authors:
+  - 007lva <lvargas@rankia.com>
+
+targets:
+  gh-notifier:
+    main: src/gh-notifier.cr
+
+crystal: 0.24.1
+
+dependencies:
+  crest:
+    github: mamantoha/crest
+
+license: MIT
