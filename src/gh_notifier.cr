@@ -1,6 +1,6 @@
 require "crest"
 require "json"
-require "./gh-notifier/github/*"
+require "./gh_notifier/github/*"
 
 include GhNotifier::Github
 
