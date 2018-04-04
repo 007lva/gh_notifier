@@ -38,7 +38,11 @@ else
       pull_request_url = notification.subject.url
       pull_request_response = client[pull_request_url.gsub(BASE_URL, "")].get
       pull_request = PullRequest.from_json(pull_request_response.body)
-      puts pull_request.html_url
+      if pull_request.merged
+        puts "#{pull_request.html_url} merged"
+      else
+        puts pull_request.html_url
+      end
     end
   end
 end

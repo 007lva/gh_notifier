@@ -10,7 +10,8 @@ module GhNotifier
       JSON.mapping(
         number: UInt16,
         html_url: String,
-        user: User
+        user: User,
+        merged: Bool?
       )
     end
   end
