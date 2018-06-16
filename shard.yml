@@ -8,7 +8,7 @@ targets:
   gh-notifier:
     main: src/gh-notifier.cr
 
-crystal: 0.24.1
+crystal: 0.25.0
 
 dependencies:
   crest:
