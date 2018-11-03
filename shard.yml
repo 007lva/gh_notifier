@@ -1,5 +1,5 @@
 name: gh-notifier
-version: 0.1.0
+version: 0.2.0
 
 authors:
   - 007lva <lvargas@rankia.com>
@@ -8,7 +8,7 @@ targets:
   gh-notifier:
     main: src/gh-notifier.cr
 
-crystal: 0.25.0
+crystal: 0.27.0
 
 dependencies:
   crest:
